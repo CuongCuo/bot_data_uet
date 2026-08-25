@@ -1,0 +1,48 @@
+sources:
+  # --- TRƯỜNG ĐẠI HỌC CÔNG NGHỆ (UET) ---
+  - name: "UET - Học phí & Học bổng"
+    type: "school"
+    url: "https://uet.vnu.edu.vn/category/sinh-vien/hoc-phi-hoc-bong/"
+    selector: "h2.entry-title a"
+
+  - name: "UET - Tin tức Sinh viên"
+    type: "school"
+    url: "https://uet.vnu.edu.vn/category/tin-tuc/tin-sinh-vien/"
+    selector: "h2.entry-title a"
+
+  - name: "UET - Thông báo chung"
+    type: "school"
+    url: "https://uet.vnu.edu.vn/category/tin-tuc/thong-bao/"
+    selector: "h2.entry-title a"
+
+  # --- KHOA ĐIỆN TỬ VIỄN THÔNG (FET UET) ---
+  - name: "FET - Học bổng & Hỗ trợ"
+    type: "faculty"
+    url: "https://fet.uet.vnu.edu.vn/category/hoc-bong/"
+    selector: "h3.entry-title a"
+
+  - name: "FET - Cơ hội việc làm"
+    type: "faculty"
+    url: "https://fet.uet.vnu.edu.vn/category/co-hoi-viec-lam/"
+    selector: "h3.entry-title a"
+
+  - name: "FET - Hoạt động & Sự kiện"
+    type: "faculty"
+    url: "https://fet.uet.vnu.edu.vn/category/su-kien/"
+    selector: "h3.entry-title a"
+
+  # --- FACEBOOK PAGES ---
+  - name: "Đoàn - Hội UET"
+    type: "facebook"
+    url: "https://www.facebook.com/DTNHSV.UET.VNU"
+    selector: "div[role='article']"
+
+  - name: "CLB UETX"
+    type: "facebook"
+    url: "https://www.facebook.com/uetX.club"
+    selector: "div[role='article']"
+
+  - name: "CLB ChipPlus UET"
+    type: "facebook"
+    url: "https://www.facebook.com/uetchipplus"
+    selector: "div[role='article']"
